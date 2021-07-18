@@ -1,0 +1,30 @@
+name: plastics
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - biopython=1.77
+  - cd-hit=4.8.1
+  - geopandas=0.8.0
+  - matplotlib=3.2.2
+  - networkx=2.4
+  - numpy=1.18.5
+  - pandas=0.25.3
+  - pip=20.1.1
+  - python=3.6.7
+  - r-base=3.6.3
+  - r-stringi=1.4.3
+  - rpy2=3.3.6
+  - scikit-bio
+  - scikit-learn
+  - scipy=1.5.0
+  - seaborn=0.11.0
+  - shapely=1.7.0
+  - statsmodels=0.11.1
+  - pip:
+    - gffpandas==1.2.0
+    - hmm-profile==0.0.12
+    - snakemake==5.24.0
+prefix: /home/zrimec/miniconda3/envs/plastics
